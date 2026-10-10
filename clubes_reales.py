@@ -1,0 +1,48 @@
+"""Catálogo de prueba de clubes y competiciones reales (temporada 2026).
+Los escudos incluidos son representaciones originales con iniciales, no logos oficiales.
+"""
+CLUBES_ARGENTINA = [
+  {"nombre": "Boca Juniors", "ciudad": "Buenos Aires", "estadio": "La Bombonera", "sigla": "BOC", "valoracion": 78},
+  {"nombre": "River Plate", "ciudad": "Buenos Aires", "estadio": "Estadio Monumental", "sigla": "RIV", "valoracion": 80},
+  {"nombre": "Racing Club", "ciudad": "Avellaneda", "estadio": "Presidente Perón", "sigla": "RAC", "valoracion": 76},
+  {"nombre": "Independiente", "ciudad": "Avellaneda", "estadio": "Libertadores de América", "sigla": "IND", "valoracion": 75},
+  {"nombre": "San Lorenzo", "ciudad": "Buenos Aires", "estadio": "Pedro Bidegain", "sigla": "SLO", "valoracion": 73},
+  {"nombre": "Rosario Central", "ciudad": "Rosario", "estadio": "Gigante de Arroyito", "sigla": "ROS", "valoracion": 74},
+  {"nombre": "Newell's Old Boys", "ciudad": "Rosario", "estadio": "Marcelo Bielsa", "sigla": "NOB", "valoracion": 72},
+  {"nombre": "Estudiantes", "ciudad": "La Plata", "estadio": "UNO Jorge Luis Hirschi", "sigla": "EST", "valoracion": 75},
+  {"nombre": "Vélez Sarsfield", "ciudad": "Buenos Aires", "estadio": "José Amalfitani", "sigla": "VEL", "valoracion": 74},
+  {"nombre": "Talleres", "ciudad": "Córdoba", "estadio": "Mario Alberto Kempes", "sigla": "TAL", "valoracion": 75},
+  {"nombre": "Belgrano", "ciudad": "Córdoba", "estadio": "Julio César Villagra", "sigla": "BEL", "valoracion": 71},
+  {"nombre": "Lanús", "ciudad": "Lanús", "estadio": "Ciudad de Lanús", "sigla": "LAN", "valoracion": 72},
+  {"nombre": "Huracán", "ciudad": "Buenos Aires", "estadio": "Tomás Adolfo Ducó", "sigla": "HUR", "valoracion": 71},
+  {"nombre": "Argentinos Juniors", "ciudad": "Buenos Aires", "estadio": "Diego Armando Maradona", "sigla": "ARG", "valoracion": 72},
+  {"nombre": "Banfield", "ciudad": "Banfield", "estadio": "Florencio Sola", "sigla": "BAN", "valoracion": 68},
+  {"nombre": "Defensa y Justicia", "ciudad": "Florencio Varela", "estadio": "Norberto Tomaghello", "sigla": "DYJ", "valoracion": 70},
+  {"nombre": "Platense", "ciudad": "Vicente López", "estadio": "Ciudad de Vicente López", "sigla": "PLA", "valoracion": 69},
+  {"nombre": "Unión", "ciudad": "Santa Fe", "estadio": "15 de Abril", "sigla": "UNI", "valoracion": 69},
+  {"nombre": "Instituto", "ciudad": "Córdoba", "estadio": "Monumental Presidente Perón", "sigla": "INS", "valoracion": 68},
+  {"nombre": "Gimnasia y Esgrima La Plata", "ciudad": "La Plata", "estadio": "Juan Carmelo Zerillo", "sigla": "GIM", "valoracion": 68},
+]
+
+COMPETICIONES_REALES = [
+  {"nombre": "Liga Profesional Argentina", "tipo": "liga", "pais": "Argentina"},
+  {"nombre": "Copa Argentina", "tipo": "copa", "pais": "Argentina"},
+  {"nombre": "Supercopa Argentina", "tipo": "copa", "pais": "Argentina"},
+  {"nombre": "Copa Libertadores", "tipo": "internacional", "pais": "Sudamérica"},
+  {"nombre": "Copa Sudamericana", "tipo": "internacional", "pais": "Sudamérica"},
+  {"nombre": "Recopa Sudamericana", "tipo": "internacional", "pais": "Sudamérica"},
+  {"nombre": "Premier League", "tipo": "liga", "pais": "Inglaterra"},
+  {"nombre": "FA Cup", "tipo": "copa", "pais": "Inglaterra"},
+  {"nombre": "LaLiga", "tipo": "liga", "pais": "España"},
+  {"nombre": "Copa del Rey", "tipo": "copa", "pais": "España"},
+  {"nombre": "Serie A", "tipo": "liga", "pais": "Italia"},
+  {"nombre": "Coppa Italia", "tipo": "copa", "pais": "Italia"},
+  {"nombre": "Bundesliga", "tipo": "liga", "pais": "Alemania"},
+  {"nombre": "DFB-Pokal", "tipo": "copa", "pais": "Alemania"},
+  {"nombre": "Ligue 1", "tipo": "liga", "pais": "Francia"},
+  {"nombre": "Coupe de France", "tipo": "copa", "pais": "Francia"},
+  {"nombre": "UEFA Champions League", "tipo": "internacional", "pais": "Europa"},
+  {"nombre": "UEFA Europa League", "tipo": "internacional", "pais": "Europa"},
+  {"nombre": "UEFA Conference League", "tipo": "internacional", "pais": "Europa"},
+  {"nombre": "Mundial de Clubes FIFA", "tipo": "internacional", "pais": "Mundial"},
+]
