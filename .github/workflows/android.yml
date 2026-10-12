@@ -1,3 +1,4 @@
+```yaml
 name: Build Android APK
 
 on:
@@ -60,7 +61,3 @@ jobs:
           if-no-files-found: error
           retention-days: 7
 ```
-          name: football-career-apk
-          path: bin/*.apk
-          if-no-files-found: error
-          retention-days: 7
