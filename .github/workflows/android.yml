@@ -22,7 +22,7 @@ jobs:
       - name: Instalar dependencias
         run: |
           sudo apt-get update
-          sudo apt-get install -y \
+          sudo apt-get install -y --no-install-recommends \
             git zip unzip openjdk-17-jdk \
             python3-pip python3-venv \
             autoconf automake libtool pkg-config \
