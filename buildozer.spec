@@ -15,6 +15,7 @@ presplash.filename = assets/icon.png
 android.api = 35
 android.minapi = 24
 android.ndk = 28c
+android.ndk_api = 24
 android.archs = arm64-v8a, armeabi-v7a
 android.accept_sdk_license = True
 android.allow_backup = True
