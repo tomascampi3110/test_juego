@@ -40,13 +40,11 @@ jobs:
           python -m pip install buildozer cython==0.29.36
 
       - name: Verificar configuración
-        working-directory: football_game_v2
         run: |
           grep -E '^(android.api|android.minapi|android.ndk_api|requirements)' buildozer.spec
           buildozer --version
 
       - name: Compilar APK
-        working-directory: football_game_v2
         env:
           P4A_RELEASE_KEYSTORE: ""
         run: |
@@ -56,6 +54,6 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: football-career-apk
-          path: football_game_v2/bin/*.apk
+          path: bin/*.apk
           if-no-files-found: error
           retention-days: 7
